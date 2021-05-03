@@ -1,0 +1,104 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.5);
+    &__title {
+        padding: 5rem 4rem;
+        font-size: 3rem;
+        text-align: center;
+        span {
+            font-weight: 700;
+            color: $main-color;
+        }
+        .price {
+            color: #fff;
+            font-size: 3rem;
+        }
+    }
+    &__close {
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        font-size: 3.5rem;
+        cursor: pointer;
+
+    }
+    &__wrapper {
+        position: relative;
+        width: 55.3vw;
+        min-height: 48.6vw;
+        margin: 4rem auto;
+        background-color: $second-color;
+        border-radius: 15px;
+    }
+    &__items {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+    &__img {
+        width: 23.4vw;
+        img {
+            width: 100%;
+        }
+    }
+    .order-form {
+        width: 45%;
+        box-shadow: unset;
+        margin: 0;
+        padding: 0;
+        &-pri {
+            padding-top: 1rem;
+            font-weight: 700;
+        }
+        &-btn {
+            padding: 2.6rem 9.3rem;
+        }
+    }
+    .countdown {
+        &-item {
+            width: 5.5vw;
+
+        }
+        &-wrapper {
+            text-align: center;
+        }
+    }
+    &-mini {
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            z-index: 1050;
+            top: 10rem;
+            right: 4vw;
+            width: 52.1rem;
+            height: 18.3rem;
+            padding: 0 3rem;
+            background: rgba(0,0,0,.5);
+            box-shadow: 0px 4px 3.9rem #FF0F00, inset 0px 4px 3rem #FF0300;
+            border-radius: 15px;
+            div {
+                font-weight: 500;
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+                text-align: center;
+                color: #FFFFFF;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                &:first-child{
+                    height: 100%;
+                    width: 14.8rem;
+                }
+            }
+            img{
+                width: 10.1vw;
+            }
+        }
+    }
+}
+

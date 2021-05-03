@@ -1,0 +1,75 @@
+.feedback {
+    padding: 2.9rem 0;
+    .title {
+        width: 66.8vw;
+        margin-bottom: 3rem;
+    }
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        width: 55.4vw;
+        padding: 7rem 5.3rem 4.1rem 8.6rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        background: url('../img/bg/sticker.png') 0 0 no-repeat;
+        background-size: cover;
+        p {
+            margin-top: 2.5rem;
+            span {
+                font-weight: 500;
+            }
+        }
+        img {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+        span {
+            font-style: italic;
+            text-align: center;
+        }
+        &:last-of-type {
+            margin-left: 6.5rem;
+            padding: 0;
+            width: 27vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: none;
+        }
+    }
+    &__advice {
+        position: relative;
+        display: flex;
+        width: 61.5vw;
+        padding: 1.7vw 2.8vw 1.7vw 22.6vw;
+        margin: 0 auto;
+        margin-top: 5.5rem;
+        background: $main-color;
+        box-shadow: 0px 4px 50px rgba(136, 136, 136, 0.25);
+        border-radius: 2rem;
+        color: #fff;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        
+    }
+    &__img {
+        position: absolute;
+        width: 31.3vw;
+        bottom: -2.9rem;
+        left: -6%;
+        z-index: 2;
+    }
+    &__letter {
+        width: 12vw;
+        height: 11vw;
+        margin-right: 0;
+    }
+    &__subtitle {
+        width: 27.3vw;
+        padding-top: 2.4rem;
+        margin-bottom: 1.4rem;
+        font-size: 2.4rem;
+        text-decoration: underline;
+    }
+}

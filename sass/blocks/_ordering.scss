@@ -1,0 +1,28 @@
+.ordering {
+    padding-top: 7.3rem;
+    padding-bottom: 15rem;
+    background: url('../img/bg/roses_mini_l.png') 0 0 no-repeat,
+                url('../img/bg/roses_mini_r.png') 100% 100% no-repeat;
+    background-size: 26vw;
+    background-color: #F4EBE4;
+    &__wrapper {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 21vw;
+            margin: 0 auto;
+        }
+    }
+    &__descr {
+        font-weight: 600;
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+        text-align: center;
+        color: #212121;
+    }
+}

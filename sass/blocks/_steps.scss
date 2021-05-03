@@ -1,0 +1,41 @@
+.steps {
+    background-color: #F4EBE4;
+    &__subtitle {
+        margin-bottom: 1.8rem;
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 13.5rem;
+    }
+    &__item {
+        width: 24vw;
+        min-height: 26.5vw;
+        padding: 15.6rem 3rem 3rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: $main-color;
+        box-shadow: 0px 4px 50px rgba(136, 136, 136, 0.25);
+        border-radius: 2rem;
+        color: #fff;
+        z-index: 2;
+        img {
+            width: 100%;
+            position: absolute;
+            top:-40%;
+            left:50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__descr {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        font-weight: 600;
+    }
+    
+}

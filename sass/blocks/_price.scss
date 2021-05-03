@@ -1,0 +1,20 @@
+.price {
+    padding: 0 2.5rem;
+    background: $main-color;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 4.8rem;    
+    color: #FFFFFF;
+    &-mini {
+        background: $khaki;
+        font-size: 1.8rem;
+        padding: .3rem 1rem;
+    }
+    &-green {
+        background:  $khaki;
+    }
+    &-popup {
+        background: $khaki;
+        padding: .3rem 1rem;
+    }
+}

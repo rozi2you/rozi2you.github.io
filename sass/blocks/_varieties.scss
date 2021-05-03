@@ -1,0 +1,52 @@
+.varieties {
+    padding: 33px 0px;
+    background: url('../img/bg/bg_2.png') 0 0 no-repeat;
+    background-size: 100% 100%;
+    background-color: #F4EBE4;
+    .title {
+        width: 51vw;
+    }
+    &__wrapper {
+        margin-top: 20px;
+        padding: 0 11vw;
+        display: flex;
+        &:nth-child(odd) {
+            padding-left: 22vw;
+            padding-right: 0;
+        }
+    }
+    &__item {
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        margin-right: 11vw;
+        img {
+            width: 100%;
+        }
+    }
+    &__subtitle {
+        padding: 10px 0;
+        font-weight: 700;
+        font-size: 2.4rem;
+        text-decoration-line: underline;
+        &-pink {
+            color: $main-color;
+        }
+        &-darkred {
+            color: #370707;;
+        }
+        &-purple {
+            color: #A30648;
+        }
+        &-gold {
+            color: #FD7905;
+        }
+    }
+    &__descr {
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: #212121;
+    }
+
+}

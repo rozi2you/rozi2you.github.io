@@ -1,0 +1,14 @@
+.attention {
+    background: #fff;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 3.3rem 0;
+    }
+    span {
+        width: 48vw;
+        text-align: center;
+        font-weight: 600;
+        color: #000;
+    }
+}

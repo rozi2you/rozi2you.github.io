@@ -1,0 +1,143 @@
+body {
+    padding-bottom: 6vw;
+}
+.march {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 6vw;
+    padding-left: 31vw;
+    background: url(../img/march-bg.png) 35% 0% #970088 no-repeat;
+    background-size: contain;
+    color: #fff;
+    z-index: 100;
+}
+.march img {
+    width: 6vw;
+}
+.march__btn {
+    display: block;
+    margin-left: 4.9vw;
+    padding: 4px 4.6vw;
+    color: #fff;
+    font-size: 2vw;
+    line-height: 2.6vw;
+    background: linear-gradient(180deg, #FFEE53 0%, rgba(255, 255, 255, 0) 57.03%), #D70062;
+    box-shadow: 0px 4px 12px rgba(255, 74, 237, 0.5);
+    filter: drop-shadow(0px 4px 4px #E5C350);
+    border-radius: 63px;
+}
+.march__btn:hover {
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 4px 12px rgba(133, 37, 123, 0.5);
+}
+.march__price {
+    margin-right: 4.2vw;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 1.7vw;
+}
+.march__price-mob {
+    display: none;
+}
+.march .new_price {
+    font-size: 3vw;
+    line-height: 87.4%; 
+}
+.march .timer-wrap {
+    display: flex;
+    justify-content: center;
+}
+.march .title {
+    width: auto;
+    margin-bottom: 0.3vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1vw;
+    line-height: 1.2vw;
+    text-align: center;
+    color: #FFE53B;
+}
+.march .timer__block{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.4vw;
+    text-transform: capitalize;
+    font-size: .8vw;
+    line-height: 1vw;
+    text-align: center;
+}
+.march .timer__block:last-child{
+    margin-right: 0;
+}
+.march .timer__block:first-child{
+    display: none;
+}
+.march .timer__block span{
+    width: 3vw;
+    height: 3vw;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 2.5vw;
+    color: #970088;
+    background: #F9EAEC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+@media screen and (max-width: 480px) {
+    body {
+        padding-bottom: 19.6vw;
+    }
+    .march {
+        height: 19.6vw;
+        padding-left: 14.6vw;
+        background-image: url(../img/march-bg-m.png);
+        background-size: 100% 100%;
+        justify-content: space-around;
+    }
+    .march img {
+        display: none;
+    }
+    .march__price {
+        display: none;
+    }
+    .march__price-mob {
+        display: inline-block;
+        font-size: 3.75vw;
+    }
+    .march .new_price {
+        font-size: 6vw;
+        line-height: 87.4%; 
+        font-weight: 700;
+    }
+    .march__btn {
+        margin-left: 0;
+        padding: 4px 8px;
+        order: -1;
+        font-size: 5vw;
+        line-height: 6.5vw;
+    }
+    .march .title {
+        font-size: 1.7vw;
+        line-height: 2.1vw;
+    }
+    .march .timer__block {
+        font-size: 1.7vw;
+        line-height: 87.4%;
+    }
+    .march .timer__block span{
+        width: 7vw;
+        height: 7.1vw;
+        margin-bottom: 3px;
+        font-size: 3.75vw;
+        line-height: 87.4%;
+        border-radius: 3px;
+    }
+}

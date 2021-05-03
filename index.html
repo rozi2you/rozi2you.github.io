@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Королевские гибридные розы</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon.ico">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="stylesheet" href="css/march.css"> -->
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav>
+				<ul class="header__menu">
+					<li class="header__menu-item"><a href="#action">Заказать</a></li>
+					<li class="header__menu-item"><a href="#steps">Применение</a></li>
+					<li class="header__menu-item"><img src="img/logo.png" alt="logo"></li>
+					<li class="header__menu-item"><a href="#feedback">Отзывы</a></li>
+					<li class="header__menu-item"><a href="#ordering">Доставка</a></li>
+				</ul>
+			</nav>
+			<div class="header__mobile">
+				<img src="img/logo.png" alt="logo">
+				<div class="price"><span class="new_price">168</span> <span class="currency_price">руб.</span>!*</div>
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="promo">
+		<div class="container">
+			<h1 class="promo__title">Королевские Гибридные Розы</h1>
+			<div class="promo__descr">
+				Вырастите королевские розы на своем подоконнике или в теплице <span>за 3 месяца!</span>
+			</div>
+			<div class="promo__wrapper">
+				<div class="promo__wrapper-price">
+					<img src="img/icons/medals.png" alt="медали за качество">
+					<span>Цена без скидки</span>
+					<s><span class="old_price">1499</span> <span class="currency_price">руб.</span></s>
+					<div class="price"><span class="new_price">168</span> <span class="currency_price">руб.</span>!*</div>
+					<span class="promo__wrapper-notice">Цена по акции!</span>
+				</div>
+				<div class="promo__wrapper-mobile">
+					<img class="product-img" src="img/roses_mobile.png" alt="Королевские розы">
+				</div>
+				<div class="promo__wrapper-img">
+					<img class="product-img" src="img/main_circle.png" alt="Королевские розы">
+				</div>
+				<form class="order-form" id="form-1">
+					<div class="order-form-title">Только <span class="date">сегодня</span> цена по акции <br> <span class="price price-mini"><span class="new_price">168</span> <span class="currency_price">руб.</span>!*</span> Успей заказать!</div>
+					<div id="timer-1" class="countdown">
+						<label class="countdown-label">Акция закончится через:</label>
+						<div class="countdown-items">
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="hours">00</span><span class="right"> ч.</span></div>
+								<span>Часов</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="minutes">00</span><span class="right"> м.</span></div>
+								<span>Минут</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="seconds">00</span><span class="right"> с.</span></div>
+								<span>Секунд</span>
+							</div>
+						</div>
+					</div>
+					<label class="order-form-label" >Выберите страну</label>
+					<select name="country" id="country" class="country__selecor">
+						<option value="RU">Россия</option>
+					</select>
+					<label class="order-form-label" for="name-1">Ваше имя</label>
+					<input class="order-form-input" id="name-1" name="name" type="text" required>
+					<label class="order-form-label" for="phone-1">Контактный телефон</label>
+					<input class="order-form-input phone-black" id="phone-1" name="phone" type="text" placeholder="+ (7)" required>
+					<button class="order-form-btn" type="submit">Получить</button>
+					<span class="order-form-pri">*при заказе комплекта</span>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section id="steps" class="steps">
+		<div class="container">
+			<div class="title"><b>3 простых шага</b> к 100% цветению королевских роз дома или в теплице</div>
+			<div class="steps__wrapper">
+				<div class="steps__item">
+					<img src="img/first_step.png" alt="1 шаг">
+					<div class="steps__subtitle">1 шаг</div>
+					<div class="steps__descr">
+						Распакуйте набор с семенами высадите в заранее подготовленный горшок (грунт с полезными минералами уже в наборе)
+					</div>
+				</div>
+				<div class="steps__item">
+					<img src="img/second_step.png" alt="2 шаг">
+					<div class="steps__subtitle">2 шаг</div>
+					<div class="steps__descr">
+						Поддерживайте стабильную температуру первые 2 недели после высадки и поливайте по мере необходимости
+					</div>
+				</div>
+				<div class="steps__item">
+					<img src="img/third_step.png" alt="3 шаг">
+					<div class="steps__subtitle">3 шаг</div>
+					<div class="steps__descr">
+						Соберите первый урожай уже после 3-х месяцев! Срезайте и ставьте в вазу, либо дарите близким. Внешний вид сохраняется на протяжении 14 дней
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="guarantee">
+		<div class="divider"></div>
+		<div class="container">
+			<div class="title"><span>Королевские Гибридные Розы</span> - гарант
+				уюта и роскоши в вашем доме!</div>
+			<div class="guarantee__wrapper">
+				<ul class="guarantee__list">
+					<li>Инновационный грунт, в составе все необходимые витамины для цветения роз</li>
+					<li><b>17 000</b> счастливых садоводов в <span class="country_name2">России</span> и СНГ</li>
+					<li>Доставка по всему миру, отслеживание посылки, оплата при получении</li>
+					<li>Победитель международной выставки <b>Flowers Expo 2018</b></li>
+					<li>Грамота <b>World Flower Expo Global</b> инновация года 2018</li>
+				</ul>
+				<div><img class="product-img" src="img/sert_1.png" alt="Сертификат"></div>
+				<div><img src="img/sert_2.png" alt="World Flower Expo Global"><span>Грамота World Flower Expo Global инновация года 2018</span></div>
+				<div><img src="img/sert_3.png" alt="Сертификат"></div>
+				<div><img src="img/sert_4.png" alt="Flowers Expo 2018"> <span>Победитель международной выставки Flowers Expo 2018</span></div>
+			</div>
+		</div>
+	</section>
+	<section class="varieties">
+		<div class="container">
+			<div class="title">
+				Вырастите любимые розы <br> всего <b>за 3 месяца</b> и наслаждайтесь ими более 8 лет!
+			</div>
+			<div class="varieties__wrapper">
+				<div class="varieties__item">
+					<img src="img/roses_1.png" alt="Королева Елизавета">
+					<div class="varieties__subtitle varieties__subtitle-pink">“Королева Елизавета”</div>
+					<div class="varieties__descr">Нежно-белые бутоны с шелковистыми лепестками</div>
+				</div>
+				<div class="varieties__item">
+					<img src="img/roses_2.png" alt="Черная магия">
+					<div class="varieties__subtitle varieties__subtitle-darkred">“Чёрная магия”</div>
+					<div class="varieties__descr">Королевские черные лепестки с красным оттенком</div>
+				</div>
+			</div>
+			<div class="varieties__wrapper">
+				<div class="varieties__item">
+					<img src="img/roses_3.png" alt="Уильям Шекспир 2000">
+					<div class="varieties__subtitle varieties__subtitle-purple">“Уильям Шекспир 2000”</div>
+					<div class="varieties__descr">Сиренево-розовые пышные и утонченные бутоны</div>
+				</div>
+				<div class="varieties__item">
+					<img src="img/roses_4.png" alt="Золотой праздник">
+					<div class="varieties__subtitle varieties__subtitle-gold">“Золотой праздник”</div>
+					<div class="varieties__descr">Солнечные цветы с прекрасным ароматом</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="action" class="action">
+		<div class="container">
+			<div class="action__wrapper">
+				<div class="action__item action__item-first">
+					<img class="action__img action__img-logo product-img" src="img/roses_petals.png" alt="Королевские розы">
+					<div id="timer-2" class="countdown countdown-mini">
+						<label class="countdown-label">До конца акции осталось:</label>
+						<div class="countdown-items">
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="hours">00</span><span class="right"> ч.</span></div>
+								<span>Часов</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="minutes">00</span><span class="right"> м.</span></div>
+								<span>Минут</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="seconds">00</span><span class="right"> с.</span></div>
+								<span>Секунд</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="action__item action__item-price">
+					<div class="title title-30">
+						Успейте заказать <br><span>Королевские Гибридные Розы</span> <br> <b>по акции</b> <span class="title__output">ноября 2020</span>
+					</div>
+					<div class="action__price">
+						<span>Цена без скидки</span>
+						<s><span class="old_price">1499</span> <span class="currency_price">руб.</span></s>
+						<div class="price price-green"><span class="new_price">168</span> <span class="currency_price">руб.</span>!*</div>
+						<span class="action__notice">Цена по акции!</span>
+						<span class="action__notice-mini">*при заказе комплекта</span>
+					</div>
+				</div>
+				<div class="action__item action__item-form">
+					<form class="order-form" id="form-2">
+						<div class="order-form-title">
+							Акция предоставляется благодаря сообществу цветоводов <span class="country_name1">России</span>
+						</div>
+						<label class="order-form-label" >Выберите страну</label>
+						<select name="country" id="country" class="country__selecor">
+							<option value="RU">Россия</option>
+						</select>
+						<label class="order-form-label order-form-label-r" for="name-2">Ваше имя</label>
+						<input class="order-form-input" id="name-2" name="name" type="text" required>
+						<label class="order-form-label order-form-label-r" for="phone-2">Контактный телефон</label>
+						<input class="order-form-input phone-black" id="phone-2" name="phone" type="text" placeholder="+ (7)" required>
+						<button class="order-form-btn" type="submit">Получить</button>
+					</form>
+					<div class="action__notice-mini action__notice-mobile">*при заказе комплекта</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="recommendations">
+		<div class="container">
+			<div class="title">Сообщество садоводов <span class="country_name1">России</span> <span>рекомендуют!</span></div>
+			<div class="recommendations__wrapper">
+				<div class="recommendations__item">
+					<img src="img/bush.png" alt="куст роз"> 
+					высота куста чуть больше 50см
+				</div>
+				<div class="recommendations__item">
+					<img src="img/bouqet.png" alt="букет">
+					до 50 бутонов с одного куста в год
+				</div>
+				<div class="recommendations__item">
+					<img src="img/earth.png" alt="грунт">
+					в наборе инновационный грунт, обогащенный минералами
+				</div>
+				<div class="recommendations__item">
+					<img src="img/no-adds.png" alt="не требуют подкормки">
+					не требуют специальной подкормки и ухода
+				</div>
+				<div class="recommendations__item">
+					<img src="img/snowflake.png" alt="снежинка">
+					растут в любое время года
+				</div>
+				<div class="recommendations__item">
+					<img src="img/roses_mini.png" alt="розы">
+					жизнь куста в среднем до 8 лет
+				</div>
+			</div>
+		</div>
+		<div class="recommendations__advice">
+			<img src="img/gardener.png" alt="Садовод">
+			<h3 class="recommendations__subtitle">Совет от садовода:</h3>
+			<p>
+				Не нужно усложнять. Большинство начинающих цветоводов считают, что чем экзотичнее растение, тем сложнее его выращивать. Это не так. Достаточно знать азы и покупать семена у проверенных поставщиков!
+			</p>
+		</div>
+	</section>
+	<section class="action">
+		<div class="container">
+			<div class="action__wrapper">
+				<div class="action__item">
+					<div class="action__subtitle"><b>Удивите</b> своих соседей и родных!</div>
+					<div class="action__item-wrapper">
+						<p>В одном из выпусков "На Дачу!" <b>Лариса Гузеева</b> узнала про гибридные неприхотливые розы, вдохновилась и уже оформила заказ по рекомендации участников программы для своего дома!</p>
+						<img class="action__img action__img-mini product-img" src="img/roses_video.png" alt="Королевские розы">
+					</div>
+				</div>
+				<div class="action__item">
+					<img class="action__img action__img-video" src="img/video.png" alt="видеоролик">
+				</div>
+				<div class="action__item action__item-form">
+					<div id="timer-3" class="countdown countdown-mini">
+						<label class="countdown-label">До конца акции осталось:</label>
+						<div class="countdown-items">
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="hours">00</span><span class="right"> ч.</span></div>
+								<span>Часов</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="minutes">00</span><span class="right"> м.</span></div>
+								<span>Минут</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="seconds">00</span><span class="right"> с.</span></div>
+								<span>Секунд</span>
+							</div>
+						</div>
+					</div>
+					<form class="order-form" id="form-3">
+						<div class="order-form-notice">
+							Осталось <b>19 упаковок</b> в вашем регионе
+						</div>
+						<label class="order-form-label" >Выберите страну</label>
+						<select name="country" id="country" class="country__selecor">
+							<option value="RU">Россия</option>
+						</select>
+						<label class="order-form-label order-form-label-r" for="name-3">Ваше имя</label>
+						<input class="order-form-input" id="name-3" name="name" type="text" required>
+						<label class="order-form-label order-form-label-r" for="phone-3">Контактный телефон</label>
+						<input class="order-form-input phone-black" id="phone-3" name="phone" type="text" placeholder="+ (7)" required>
+						<button class="order-form-btn" type="submit">Получить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="problems">
+		<div class="container">
+			<div class="title title-42">
+				<b>87% садоводов</b> сталкиваются с проблемами выращивания роз* <br> в домашних условиях
+			</div>
+			<div class="problems__notice">
+				*при покупке черенков роз у непроверенных поставщиков
+			</div>
+			<div class="problems__wrapper">
+				<ul class="problems__list">
+					<li>Не все сорта роз предназначены для домашнего ухода и требуют внимания 24/7</li>
+					<li>В 73% черенки не приживаются в грунте и приходится выбрасывать</li>
+					<li>Высокая и необоснованная <br>стоимость за 1 черенок </li>
+				</ul>
+				<img class="product-img" src="img/roses.png" alt="Королевские розы">
+			</div>
+			<div class="problems__advice">Не допускайте ошибок садоводов!</div>
+			<div class="problems__wrapper">
+				<div class="problems__item">
+					<span><b>Гибридные Королевские розы</b> - это экологически-чистые растения, устойчивые к температурам и болезням!</span>
+					<button class="btn-order showPopup">Заказать</button>
+				</div>
+				<div id="timer-4" class="countdown countdown-mini">
+					<label class="countdown-label">До конца акции осталось:</label>
+					<div class="countdown-items">
+						<div class="countdown-wrapper">
+							<div class="countdown-item"><span class="hours">00</span><span class="right"> ч.</span></div>
+							<span>Часов</span>
+						</div>
+						<span class="countdown-points"></span>
+						<div class="countdown-wrapper">
+							<div class="countdown-item"><span class="minutes">00</span><span class="right"> м.</span></div>
+							<span>Минут</span>
+						</div>
+						<span class="countdown-points"></span>
+						<div class="countdown-wrapper">
+							<div class="countdown-item"><span class="seconds">00</span><span class="right"> с.</span></div>
+							<span>Секунд</span>
+						</div>
+					</div>
+					<div class="problems__item-notice">
+						Осталось <b>19 упаковок</b> в вашем регионе
+					</div>
+				</div>
+				<button class="btn-order btn-order-mobile showPopup">Заказать</button>
+				
+			</div>
+		</div>
+	</section>
+	<section id="feedback" class="feedback">
+		<div class="container">
+			<div class="title">Каждый день к нам поступают <span>письма с благодарностями</span> и фотографиями со всего мира</div>
+			<div class="feedback__wrapper">
+				<div class="feedback__item">
+					<b>Добрый день, друзья мои! </b>
+					<p>Никогда бы не подумала, что в наших суровых и засушливых условиях я смогу вырастить прекрасные розы! 
+						Мы живем в Актау, это Казахстан. </p>
+					<p>Город на берегу Каспийского моря. Из-за глиняной почвы, порывистых ветров, сильного солнца и редких дождей, ни о 	каких растениях я и мечтать не могла.</p>
+					<p>По совету подруги из Новосибирска, заказала у вас каждый вид роз и решила рискнуть! <span>Спустя 3 месяца все мои красавицы расцвели,</span> счастью и слезам радости не было предела!</p>
+					<p>И вот, этим летом я высадила красоток в наш небольшой сад. Теперь они радуют не только меня, но и соседей! Вновь и 	вновь заказываю себе, друзьям в подарок. Только жаль, что не всегда удается попасть на скидку.</p>
+				</div>
+				<div class="feedback__item">
+					<img src="img/feedback_photo.png" alt="Людмила Прокофьева">
+					<span>Людмила Прокофьева, Актау, 37 лет</span>
+				</div>
+			</div>
+		</div>
+		<div class="feedback__advice">
+			<img class="feedback__img" src="img/rose_dress.png" alt="Платье-роза">
+			<div>
+				<h3 class="feedback__subtitle">Поделитесь вашим отзывом!</h3>
+				<p>
+					Напишите нам на <br> <b>King-Roses@yandex.ru</b> <br>и расскажите свою историю!
+				</p>
+			</div>
+			<img class="feedback__letter" src="img/letter.png" alt="письмо">
+		</div>
+	</section>
+	<section id="ordering" class="ordering">
+		<div class="container">
+			<div class="title">Как <b>оформить заказ</b> на сайте?</div>
+			<div class="ordering__wrapper">
+				<div class="ordering__item">
+					<img class="product-img" src="img/notebook.png" alt="выберите сорт">
+					<div class="ordering__descr">
+						Выберите сорт роз и оставьте заявку на сайте</div>
+				</div>
+				<div class="ordering__item">
+					<img src="img/phone.png" alt="телефон">
+					<div class="ordering__descr">
+						Примите звонок от оператора и обсудите детали
+					</div>
+				</div>
+				<div class="ordering__item">
+					<img src="img/box.png" alt="посылка">
+					<div class="ordering__descr">
+						Получите персональный код для отслеживания посылки
+					</div>
+				</div>
+				<div class="ordering__item">
+					<img class="product-img" src="img/unpacked_box.png" alt="распакованная посылка">
+					<div class="ordering__descr">
+						Оплатите товар после получения на почте
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="action action-mobile">
+		<div class="container">
+			<div class="action__wrapper">
+				<div class="action__item action__item-mobile">
+					<p>
+						Время истекает. До конца акции осталось совсем <span>мало времени!</span>
+					</p>
+					<p>
+						<b>Внимание:</b> остерегайтесь подделок и заказывайте только на официальном сайте
+					</p>
+				</div>
+				<div class="action__item action__item-first">
+					<img class="action__img action__img-logo product-img" src="img/roses_petals.png" alt="Королевские розы">
+					<div id="timer-5" class="countdown countdown-mini">
+						<label class="countdown-label">До конца акции осталось:</label>
+						<div class="countdown-items">
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="hours">00</span><span class="right"> ч.</span></div>
+								<span>Часов</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="minutes">00</span><span class="right"> м.</span></div>
+								<span>Минут</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="seconds">00</span><span class="right"> с.</span></div>
+								<span>Секунд</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="action__item action__item-price">
+					<div class="title title-30">
+						Успейте заказать <br><span>Королевские Гибридные Розы</span> <br> <b>по акции</b> <span class="title__output">ноября 2020</span>
+					</div>
+					<div class="action__price">
+						<span>Цена без скидки</span>
+						<s><span class="old_price">1499</span> <span class="currency_price">руб.</span></s>
+						<div class="price price-green"><span class="new_price">168</span> <span class="currency_price">руб.</span>!*</div>
+						<span class="action__notice">Цена по акции!</span>
+						<span class="action__notice-mini">*при заказе комплекта</span>
+					</div>
+				</div>
+				<div class="action__item action__item-form">
+					<form class="order-form" id="form-4">
+						<div class="order-form-title">
+							Акция предоставляется благодаря сообществу цветоводов <span class="country_name1">России</span>
+						</div>
+						<label class="order-form-label" >Выберите страну</label>
+						<select name="country" id="country" class="country__selecor">
+							<option value="RU">Россия</option>
+						</select>
+						<label class="order-form-label order-form-label-r" for="name-4">Ваше имя</label>
+						<input class="order-form-input" id="name-4" name="name" type="text" required>
+						<label class="order-form-label order-form-label-r" for="phone-4">Контактный телефон</label>
+						<input class="order-form-input phone-black" id="phone-4" name="phone" type="text" placeholder="+ (7)" required>
+						<button class="order-form-btn" type="submit">Получить</button>
+					</form>
+					<div class="action__notice-mini action__notice-mobile">*при заказе комплекта</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__contacts">
+			ООО "Торг" <br> 
+			55912 г. Шуя, ул. Советская, 12 <br>
+			ОГРН 1043700510039 ИНН 3706011200
+		</div>
+		<a href="politic.html">Политика конфиденциальности</a>
+		<a href="oferta.html">Публичная оферта</a>
+	</footer>
+	<div id="popupBig" class="popup hide">
+        <div class="popup__wrapper">
+			<div data-close class="popup__close">&times;</div>
+			<div class="popup__title">
+				<span>Не упустите свой шанс!</span> Заполните форму и заберите <span>Королевские Гибридные Розы</span> за <br> <span class="price price-mini"><span class="new_price" style="color: #ffffff;">168</span> <span class="currency_price"  style="color: #ffffff;">руб.</span>*!</span>
+			</div>
+			<div class="popup__items">
+				<div class="popup__img">
+					<img class="popup-img" src="img/roses.png" alt="Королевские розы">
+				</div>
+				<form class="order-form" id="form-5">
+					<div id="timer-6" class="countdown">
+						<label class="countdown-label">Акция закончится через:</label>
+						<div class="countdown-items">
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="hours">00</span><span class="right"> ч.</span></div>
+								<span>Часов</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="minutes">00</span><span class="right"> м.</span></div>
+								<span>Минут</span>
+							</div>
+							<span class="countdown-points"></span>
+							<div class="countdown-wrapper">
+								<div class="countdown-item"><span class="seconds">00</span><span class="right"> с.</span></div>
+								<span>Секунд</span>
+							</div>
+						</div>
+					</div>
+					<label class="order-form-label" >Выберите страну</label>
+					<select name="country" id="country" class="country__selecor">
+						<option value="RU">Россия</option>
+					</select>
+					<label class="order-form-label" for="name-5">Ваше имя</label>
+					<input class="order-form-input" id="name-5" name="name" type="text" required>
+					<label class="order-form-label" for="phone-5">Контактный телефон</label>
+					<input class="order-form-input phone-black" id="phone-5" name="phone" type="text" placeholder="+ (7)" required>
+					<button class="order-form-btn" type="submit">Получить</button>
+					<span class="order-form-pri">*при заказе комплекта</span>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="popup-mini-group">
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text"><span class="feed-name">Василиса, из г. Москва</span>, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text">Наталья, из г. Сочи, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text">Дарья, из г. Владивосток, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text"><span class="feed-name">Виктория, из г. Магнитогорск</span>, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text"><span class="feed-name">Елена, из г. Серпухов</span>, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text">Анна, из г. Челябинск, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text"><span class="feed-name">Ирина, из г. Рязань</span>, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text">Галина, из г. Тверь, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text"><span class="feed-name">Надежда, из г. Иркутск</span>, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+		<div class="popup-mini" style="display: none;">
+			<div class="popup-mini-wrapper">
+				<div><img class="popup-img" src="img/roses.png" alt="Королевские розы"></div>
+				<div class="popup-mini-text">Милена, из г. Йошкар-Ола, оформила заказ, кол-во 4 шт.</div>
+			</div>
+		</div>
+	</div>
+	<!-- Плашка к 8 марта -->
+	<!-- <div class="march">
+		<img src="img/prod-mini.png" alt="спецпредложение">
+		<span class="march__price">
+			<span class="new_price">168</span> <span class="currency_price">руб</span>*
+		</span>
+
+		<div class="promotion__timer">
+			<div class="title">До конца акции осталось</div>
+			<div class="timer-wrap">
+				<div class="timer__block">
+					<span id="days">12</span>
+					дней
+				</div>
+				<div class="timer__block">
+					<span id="hours">20</span>
+					часов
+				</div>
+				<div class="timer__block">
+					<span id="minutes">56</span>
+					минут
+				</div>
+				<div class="timer__block">
+					<span id="seconds">20</span>
+					секунд
+				</div>
+			</div>
+		</div>
+		<a href="#" class="march__btn to_form">Купить <span class="march__price-mob"> за
+			<span class="new_price">168</span> <span class="currency_price">руб</span>*
+		</span></a>
+	</div> -->
+	<script src="js/all.js"></script>
+	<script>
+		$(".to_form").on("touchend, click", function (e) {
+		e.preventDefault();
+		$('body,html').animate({
+		  scrollTop: $('#action').offset().top
+		}, 400);
+	  });
+	</script>
+
+	<!-- <script src="js/march_timer.js"></script> -->
+	
+		<!-- подключение скрипта js интеграции ПП -->
+		<script src="https://afcnt.com/js/af.js"></script>
+
+		<!-- активация скрипта js интеграции ПП, третий параметр хеш потока -->
+		<script>
+		afjs.init('land', 'confirm.html', '3db391e6-5b5c-42ad-9d0f-ba177b586325');
+		</script>
+
+		<!-- counter.js - скрипт подключения счетчиков ПП -->
+		<script src="../counter.js"></script>
+
+		<!-- price.js - скрипт цены, ГЕО -->
+		<script src="price.js"></script>
+
+		<script src="js/change.js"></script>
+</body>
+</html>

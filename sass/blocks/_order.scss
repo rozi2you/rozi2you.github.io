@@ -1,0 +1,90 @@
+.order{
+    &-form {
+        position: relative;
+        max-width: 25vw;
+        margin-top: 15px;
+        padding: 3rem 2.3rem;
+		background: $second-color;
+		box-shadow: 0px 4px 50px rgba(136, 136, 136, 0.25);
+        border-radius: 2rem;
+		
+		&-title {
+			font-size: 1.8rem;
+			text-align: center;
+			color: #000000;
+            margin-bottom: 5px;
+        }
+		.date {
+			text-transform: uppercase;
+			color: $main-color;
+            font-weight: 700;
+        }
+		&-label {
+            display: block;
+            font-size: 1.2rem;
+            line-height: 1;
+            color: #000000;
+            text-align: left;
+        }
+		&-input {
+			display: block;
+            margin-bottom: 1.4rem;
+            padding: 1rem 1.5rem;
+			height: 4rem;
+			width: 100%;
+			background: #fff;
+			border-radius: 1rem;
+            border: none;
+            font-size: 1.8rem;
+            &::placeholder {
+                color: #bebebe;
+              }
+        }
+		&-btn {
+            display: block;
+            margin: 2.5rem auto 1.2rem auto;
+			padding: 1.2rem 6rem;
+			font-size: 1.8rem;
+			line-height: 2.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #FB5E5C;
+            box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.25);
+            border: none;  
+            border-radius: 2rem;
+        }
+		&-box {
+			position: relative;
+			span {
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 58px;
+				height: 40px;
+				border-top-right-radius: 10px;
+				border-bottom-right-radius: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				img {
+					width: 27px;
+                    height: 27px;
+                }
+            }
+        }
+		&-pri {
+            display: block;
+            font-size: 1.2rem;
+            line-height: 1;
+            text-align: left;
+        }
+		&-date {
+            padding: 10px 66px 10px 15px;
+        }
+		.price-val {
+            font-weight: 700;
+            color: #000000;
+        }
+    }
+}
